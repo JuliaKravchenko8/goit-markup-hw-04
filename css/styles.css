@@ -369,22 +369,22 @@ img {
     margin-right: 30px;
 } */
 .icon-clients-1 {
-    background-image: url(../images/icons.svg/Logo1.svg);
+    background-image: url(../images/icons.svg/icon1.svg);
 }
 .icon-clients-2 {
-    background-image: url(../images/icons.svg/Logo2.svg);
+    background-image: url(../images/icons.svg/icon2.svg);
 }
 .icon-clients-3 {
-    background-image: url(../images/icons.svg/Logo3.svg);
+    background-image: url(../images/icons.svg/icon3.svg);
 }
 .icon-clients-4 {
-    background-image: url(../images/icons.svg/Logo4.svg);
+    background-image: url(../images/icons.svg/icon4.svg);
 }
 .icon-clients-5 {
-    background-image: url(../images/icons.svg/Logo5.svg);
+    background-image: url(../images/icons.svg/icon5.svg);
 }
 .icon-clients-6 {
-    background-image: url(../images/icons.svg/Logo6.svg);
+    background-image: url(../images/icons.svg/icon6.svg);
 }
 
 .footer {
@@ -537,3 +537,5 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+
