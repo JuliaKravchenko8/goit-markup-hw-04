@@ -388,9 +388,6 @@ li:hover .clients-icon,
 li:focus .clients-icon {
     fill: var(--link-color);
 }
-/* .clients-item:not(:last-child) {
-    margin-right: 30px;
-} */
 /* .icon-clients-1 {
     background-image: url(../images/icons.svg/icon1.svg);
 }
