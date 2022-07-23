@@ -236,8 +236,16 @@ img {
 .feature-item {
     width: calc((100% - 60px) / 4);
 }
+.button {
+    padding: 25px 100px;
+    border: none;
+    width: 270px;
+    height: 120px;
+    background: var(--secondary-background);
+    border-radius: 4px;
+}
 
-.feature-item::before {
+/* .feature-item::before {
     display: block;
     content: '';
     height: 120px;
@@ -247,8 +255,8 @@ img {
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
-}
-.icon-antenna::before {
+} */
+/* .icon-antenna::before {
     background-image: url('../images/icons.svg/antenna.svg');    
 }
 .icon-clock::before {
@@ -260,7 +268,7 @@ img {
 .icon-astronaut::before {
     background-image: url('../images/icons.svg/astronaut.svg');
 }
-
+ */
 /* .feature-item:not(:last-child) {
     margin-right: 30px;
 } */
@@ -364,11 +372,26 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--link-color);
+    fill: var(--link-color);
+}
+.clients-icon {
+    fill: #AFB1B8;;
+}
+li:hover .clients-icon,
+li:focus .clients-icon {
+    fill: var(--link-color);
 }
 /* .clients-item:not(:last-child) {
     margin-right: 30px;
 } */
-.icon-clients-1 {
+/* .icon-clients-1 {
     background-image: url(../images/icons.svg/icon1.svg);
 }
 .icon-clients-2 {
@@ -385,7 +408,7 @@ img {
 }
 .icon-clients-6 {
     background-image: url(../images/icons.svg/icon6.svg);
-}
+} */
 
 .footer {
     display: block;
