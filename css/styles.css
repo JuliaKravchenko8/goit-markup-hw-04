@@ -151,6 +151,8 @@ img {
 }
 
 .address-nav-link {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-text-color);
@@ -167,11 +169,19 @@ img {
   gap: 50px;
 }
 
+.address-nav-link:hover,
+.address-nav-link:focus {
+  color: var(--link-color);
+}
 .contacts-icon {
   display: inline-block;
-  fill: yellow;
+  margin-right: 10px;
+  fill: currentColor;
 }
-
+/* .contacts-icon:hover,
+.contacts-icon:focus {
+  fill: currentColor;
+} */
 /* .mail {
   fill: var(--secondary-text-color);
 } */
