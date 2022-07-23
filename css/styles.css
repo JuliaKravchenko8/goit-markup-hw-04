@@ -167,6 +167,15 @@ img {
   gap: 50px;
 }
 
+.contacts-icon {
+  display: inline-block;
+  fill: yellow;
+}
+
+/* .mail {
+  fill: var(--secondary-text-color);
+} */
+
 /* .address-nav-item:not(:last-child) {
     margin-right: 50px;
 } */
@@ -260,6 +269,7 @@ img {
 }
 
 .icon-container {
+  display: block;
   height: 120px;
   padding: 25px 100px;
   border: none;
