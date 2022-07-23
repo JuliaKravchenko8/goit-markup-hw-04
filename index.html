@@ -11,7 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -24,11 +27,17 @@
             <li class="site-nav-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
             <li class="site-nav-item"><a class="link" href="">Контакты</a></li>
           </ul>
-        </nav>  
+        </nav>
         <ul class="address-nav-list">
-          <li class="address-nav-item"><a class="address-nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="address-nav-item"><a class="address-nav-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>  
+          <li class="address-nav-item">
+            <a class="address-nav-link" href="mailto:info@devstudio.com" aria-label="позвонить"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-nav-item">
+            <a class="address-nav-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -37,7 +46,7 @@
       <section class="hero section">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>  
+          <button class="hero-button" type="button">Заказать услугу</button>
         </div>
       </section>
       <!--Особенности-->
@@ -89,7 +98,7 @@
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
-          </ul>  
+          </ul>
         </div>
       </section>
       <!--Чем занимаемся-->
@@ -97,10 +106,16 @@
         <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list">
-            <li class="work-item"><img src="./images/img.jpg" alt="разработка" width="370" height="294" /></li>
-            <li class="work-item"><img src="./images/img1.jpg" alt="адаптация" width="370" height="294" /></li>
-            <li class="work-item"><img src="./images/img2.jpg" alt="дизайн" width="370" height="294" /></li>
-          </ul>  
+            <li class="work-item">
+              <img src="./images/img.jpg" alt="разработка" width="370" height="294" />
+            </li>
+            <li class="work-item">
+              <img src="./images/img1.jpg" alt="адаптация" width="370" height="294" />
+            </li>
+            <li class="work-item">
+              <img src="./images/img2.jpg" alt="дизайн" width="370" height="294" />
+            </li>
+          </ul>
         </div>
       </section>
       <!--Команда-->
@@ -128,37 +143,55 @@
               <h4 class="team-name">Михаил Ермаков</h4>
               <p class="team-description" lang="en">UI Designer</p>
             </li>
-          </ul>  
+          </ul>
         </div>
       </section>
       <section class="clients section">
         <div class="container">
           <h2 class="clients-title">Постоянные клиенты</h2>
           <ul class="clients-list">
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon1"></use>
-              </svg></a></li>
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon2"></use>
-              </svg></a></li>
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon3"></use>
-              </svg></a></li>
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon4"></use>
-              </svg></a></li>
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon5"></use>
-              </svg></a></li>
-            <li class="clients-item"><a href="">
-              <svg class="clients-icon" width="106" height="60">
-                <use href="./images/icons.svg/sprite.svg#icon-icon6"></use>
-              </svg></a></li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon3"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon4"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon5"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="clients-link" href="">
+                <svg width="106" height="60">
+                  <use href="./images/icons.svg/sprite.svg#icon-icon6"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -167,11 +200,19 @@
     <!--Футер-->
     <footer class="footer">
       <div class="container">
-        <a lang="en" class="footer-logo" href="index.html"><span class="link-logo">Web</span>Studio</a>
+        <a lang="en" class="footer-logo" href="index.html"
+          ><span class="link-logo">Web</span>Studio</a
+        >
         <address class="footer-address">
           <ul class="footer-list">
             <li class="footer-item">
-              <a class="link-footer" href="https://goo.gl/maps/oWEZeGA9jAZj1tNt6" target="_blank" rel="nooppener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a>
+              <a
+                class="link-footer"
+                href="https://goo.gl/maps/oWEZeGA9jAZj1tNt6"
+                target="_blank"
+                rel="nooppener noreferrer nofollow"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
             </li>
             <li class="footer-item">
               <a class="footer-nav" href="mailto:info@example.">info@example.com</a>
@@ -180,17 +221,17 @@
               <a class="footer-nav" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
-        <div class="footer-icon">
-          <h3 class="footer-title">присоединяйтесь</h3>
-          <ul class="footer-list-icon">
-            <li class="footer-item-icon">
-              <img src="./images/icons.svg/icon1.svg" alt="" width="60" height="60">
-            </li>
-            <li class="footer-item-icon"><a href=""></a></li>
-            <li class="footer-item-icon"><a href=""></a></li>
-            <li class="footer-item-icon"><a href=""></a></li>
-          </ul>
-        </div>
+          <div class="footer-icon">
+            <h3 class="footer-title">присоединяйтесь</h3>
+            <ul class="footer-list-icon">
+              <li class="footer-item-icon">
+                <img src="./images/icons.svg/icon1.svg" alt="" width="60" height="60" />
+              </li>
+              <li class="footer-item-icon"><a href=""></a></li>
+              <li class="footer-item-icon"><a href=""></a></li>
+              <li class="footer-item-icon"><a href=""></a></li>
+            </ul>
+          </div>
         </address>
       </div>
     </footer>
