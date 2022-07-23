@@ -234,22 +234,11 @@ img {
   border-radius: 4px;
 }
 
+/* --------FEATURE---------- */
+
 .feature-list {
   display: flex;
   gap: 30px;
-}
-
-.feature-item {
-  width: calc((100% - 60px) / 4);
-}
-.button {
-  padding: 25px 100px;
-  border: none;
-  width: 270px;
-  height: 120px;
-  background: var(--secondary-background);
-  border-radius: 4px;
-  margin-bottom: 30px;
 }
 
 .feature-title {
@@ -269,6 +258,15 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.icon-container {
+  height: 120px;
+  padding: 25px 100px;
+  border: none;
+  background: var(--secondary-background);
+  margin-bottom: 30px;
+}
+/* ----------------WORK------------- */
 
 .work-title,
 .team-title,
@@ -290,9 +288,6 @@ img {
   display: flex;
   gap: 30px;
 }
-/* .work-item:not(:last-child) {
-    margin-right: 30px;
-} */
 
 .team {
   background: var(--secondary-background);
